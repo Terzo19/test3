@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #f0ffff; /* azure */
+}
+
+.header {
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 15px 25px;
+    border: 2px solid #daa520; /* goldenrod */
+    border-radius: 5px; 
+    display: inline-block;
+    background-color: #b8860b; /*darkgodlenrod */
+}
+
+.header h1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.colors, .fonts, .styles{
+   margin-top: 60px; 
+   margin-left: 25px;
+   margin-right: 25px;
+   margin-bottom: 20px;
+   border: 1px solid #000;
+   border-radius: 5px;
+   background-color: lightgray;
+}
+
+.colors h2, .fonts h2, .styles h2{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.colors h4{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  display: inline-block;
+  padding: 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+#goldenrod {
+  background-color: #daa520;
+}
+#midnightblue {
+  background-color: #191970;
+  color: white;
+}
+#lightskyblue {
+  background-color: #87cefa;
+}
+#rosybrown {
+  background-color: #bc8f8f;
+}
+
+.colors p{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.fonts h4{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  display: inline-block;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.fonts p {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.firstp, .secondp, .thirdp{
+  font-family: 'Open Sans';
+}
+
+.fp , .sp, .tp,  {
+  font-family: 'Roboto Condensed';
+}
+
+.firstpar, .secondpar, .thirdpar {
+  font-family: 'PT Sans';
+}
+
+.secondp, .sp, .secondpar{
+  font-style:italic;
+}
+.thirdp, .tp, .thirdpar{
+  font-weight: bold;
+}
+
+.styles h4{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+#mainhead {
+  font-size: 28px;
+}
+
+#subhead {
+  font-size: 20px;
+}
+
+#paragraph {
+  font-size: 16px;
+}
+
+ul {
+  margin-bottom: 10px;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+
